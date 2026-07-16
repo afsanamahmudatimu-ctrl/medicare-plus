@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { getToken } from "./api";
 import MediCareLandingPage from "./pages/MediCareLandingPage";
-import MediCareLogin from "./pages/MedicareLogin";
+import MediCareLogin from "./pages/MediCareLogin";
 import PatientDashboard from "./dashboards/PatientDashboard";
 import DoctorDashboard from "./dashboards/DoctorDashboard";
 import AdminDashboard from "./dashboards/AdminDashboard";
